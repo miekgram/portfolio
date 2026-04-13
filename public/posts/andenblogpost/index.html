@@ -15,19 +15,18 @@
 
   
   
-    <title>Series &middot; Blowfish</title>
-    <meta name="title" content="Series &middot; Blowfish">
+    <title>Undervisning 2 – RAG &middot; Blowfish</title>
+    <meta name="title" content="Undervisning 2 – RAG &middot; Blowfish">
   
 
   
   
+    <meta name="description" content="Introduktion til Retrieval Augmented Generation og egen chatbot">
   
   
   
-  <link rel="canonical" href="http://localhost:1313/series/">
   
-    
-      <link rel="alternate" type="application/rss+xml" href="/series/index.xml" title="Blowfish" />
+  <link rel="canonical" href="http://localhost:1313/posts/andenblogpost/">
   
 
   
@@ -37,15 +36,20 @@
   
 
   
-  <meta property="og:url" content="http://localhost:1313/series/">
+  <meta property="og:url" content="http://localhost:1313/posts/andenblogpost/">
   <meta property="og:site_name" content="Blowfish">
-  <meta property="og:title" content="Series">
+  <meta property="og:title" content="Undervisning 2 – RAG">
+  <meta property="og:description" content="Introduktion til Retrieval Augmented Generation og egen chatbot">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-04-13T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-13T00:00:00+00:00">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Series">
+  <meta name="twitter:title" content="Undervisning 2 – RAG">
+  <meta name="twitter:description" content="Introduktion til Retrieval Augmented Generation og egen chatbot">
 
   
   
@@ -197,26 +201,26 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Series",
-    "name": "Series",
-    "headline": "Series",
+    "articleSection": "Posts",
+    "name": "Undervisning 2 – RAG",
+    "headline": "Undervisning 2 – RAG",
     
     "inLanguage": "en-us",
-    "url" : "http://localhost:1313/series/",
+    "url" : "http://localhost:1313/posts/andenblogpost/",
     "author" : {
       "@type": "Person",
       "name": "Mie Gram"
     },
+    "copyrightYear": "2026",
+    "dateCreated": "2026-04-13T00:00:00\u002b00:00",
+    "datePublished": "2026-04-13T00:00:00\u002b00:00",
     
-    
-    
-    
-    
+    "dateModified": "2026-04-13T00:00:00\u002b00:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "342"
   }]
   </script>
 
@@ -469,12 +473,18 @@
       <main id="main-content" class="grow">
         
   
-  
-  <header class="mt-5">
+  <article>
     
-    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Series</h1>
-    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+    
+
+    
+    <header id="single_header" class="mt-5 max-w-prose">
       
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Undervisning 2 – RAG
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
 
 
 
@@ -484,6 +494,30 @@
   
 
 
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
 
   
 
@@ -499,19 +533,280 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
+      <time datetime="2026-04-13T00:00:00&#43;00:00">13 April 2026</time><span class="px-2 text-primary-500">&middot;</span><span>342 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+    
+
+    
+    
   </div>
 
-
-    </div>
-  </header>
   
 
   
+  
 
-    <section class="flex flex-wrap max-w-prose -mx-2 overflow-hidden">
+  
+  
+
+
+
+      </div>
       
-    </section>
+        
   
+  
+  
+  
+  
+  
+
+  
+
+  
+    
+    
+<div class="flex author">
+  
+  <div class="place-self-center">
+    
+      <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+        Author
+      </div>
+      <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+        Mie Gram
+      </div>
+    
+    
+    <div class="text-2xl sm:text-lg">
+</div>
+  </div>
+</div>
+
+  
+
+  
+
+  
+    <div class="mb-5"></div>
+  
+
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+        <div class="article-content max-w-prose mb-20">
+          <p>I denne undervisning arbejdede vi med noget der hedder <strong>RAG (Retrieval Augmented Generation)</strong>.</p>
+
+<h2 class="relative group">Hvad er RAG?
+    <div id="hvad-er-rag" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#hvad-er-rag" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>RAG er en metode, hvor man kombinerer en AI (LLM) med sine egne data.</p>
+<p>Normalt svarer en AI kun ud fra det, den allerede er trænet på.<br>
+Men med RAG kan man:</p>
+<ul>
+<li>tilføje sine egne dokumenter</li>
+<li>søge i dem</li>
+<li>og bruge dem til at lave bedre og mere relevante svar</li>
+</ul>
+<p>Kort sagt:<br>
+AI + dine egne data = bedre svar</p>
+<p>her henter den altså og undersøger data istedt for at hallucinere og opfinde sine egne svar</p>
+<hr>
+
+<h2 class="relative group">Hvordan virker det?
+    <div id="hvordan-virker-det" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#hvordan-virker-det" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Vi lærte, at RAG fungerer sådan:</p>
+<ol>
+<li>Man lægger sine dokumenter ind</li>
+<li>De bliver lavet om til <strong>embeddings</strong> (tal som AI kan forstå)</li>
+<li>Når man stiller et spørgsmål:
+<ul>
+<li>systemet finder relevante tekststykker</li>
+<li>og sender dem med til AI&rsquo;en</li>
+</ul>
+</li>
+<li>AI’en svarer ud fra både sin viden og de fundne data</li>
+</ol>
+<hr>
+
+<h2 class="relative group">Praktisk arbejde (Diffy)
+    <div id="praktisk-arbejde-diffy" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#praktisk-arbejde-diffy" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Vi arbejdede i <strong>Diffy</strong>, hvor vi byggede vores egen chatbot.</p>
+<ul>
+<li><a href="https://cloud.dify.ai/app/edabd953-ac4f-4231-815f-6eeee6689e10/configuration"  target="_blank" rel="noreferrer">https://cloud.dify.ai/app/edabd953-ac4f-4231-815f-6eeee6689e10/configuration</a></li>
+</ul>
+<p>Her kunne vi:</p>
+<ul>
+<li>uploade vores egne data</li>
+<li>teste hvordan chatbotten svarede</li>
+<li>justere og forbedre svarene</li>
+</ul>
+<p>Det var interessant at se, hvordan svarene blev bedre, når vi gav den relevant data.</p>
+
+<h2 class="relative group">hertil forsøgte vi med studieordningen.
+    <div id="hertil-forsøgte-vi-med-studieordningen" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#hertil-fors%c3%b8gte-vi-med-studieordningen" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+
+<h2 class="relative group">Hvornår giver RAG mening?
+    <div id="hvornår-giver-rag-mening" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#hvorn%c3%a5r-giver-rag-mening" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Vi snakkede om, hvornår RAG er en god idé:</p>
+<p>Godt når:</p>
+<ul>
+<li>man har egne dokumenter</li>
+<li>man vil have præcise svar</li>
+<li>man arbejder med specifik viden</li>
+</ul>
+<p>Mindre godt når:</p>
+<ul>
+<li>man bare stiller generelle spørgsmål</li>
+<li>man ikke har noget data at koble på</li>
+</ul>
+<hr>
+
+<h2 class="relative group">Mini-projekt
+    <div id="mini-projekt" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#mini-projekt" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Opgaven var at lave en simpel chatbot baseret på vores eget materiale.</p>
+<p>Formålet var:</p>
+<ul>
+<li>at forstå hvordan RAG fungerer i praksis</li>
+<li>at eksperimentere med AI og data</li>
+<li>at bygge noget selv</li>
+</ul>
+<hr>
+
+<h2 class="relative group">Det har jeg lært
+    <div id="det-har-jeg-lært" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#det-har-jeg-l%c3%a6rt" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>hvad RAG er</li>
+<li>hvordan AI kan bruge egne data</li>
+<li>hvad embeddings er</li>
+<li>hvordan man kan bygge en chatbot</li>
+</ul>
+<hr>
+
+<h2 class="relative group">Mine tanker
+    <div id="mine-tanker" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#mine-tanker" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Jeg synes det var spændende at arbejde med AI på den her måde.<br>
+Det var fedt at kunne bruge sine egne data og se, hvordan det påvirker svarene.</p>
+<p>Det var lidt teknisk, men også meget relevant i forhold til fremtidig teknologi.</p>
+<hr>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+
+        
+
+      </div>
+    </section>
+
+    
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+      <div class="flex justify-between pt-3">
+        <span class="flex flex-col">
+          
+        </span>
+        <span class="flex flex-col items-end">
+          
+            <a
+              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/posts/firstpost/">
+              <span class="leading-6">
+                Undervisning 1 – Hugo & Blowfish&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
+              </span>
+            </a>
+            
+              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2026-04-13T00:00:00&#43;00:00">13 April 2026</time>
+              </span>
+            
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
 
         
 

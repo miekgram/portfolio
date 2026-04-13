@@ -7,15 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2026 Mie Gram</copyright>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Første blogpost</title>
+      <title>Undervisning 1 – Hugo &amp; Blowfish</title>
       <link>http://localhost:1313/posts/firstpost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/firstpost/</guid>
-      <description></description>
+      <description>Opsætning af portfolio med Hugo og Blowfish</description>
+      
+    </item>
+    
+    <item>
+      <title>Undervisning 2 – RAG</title>
+      <link>http://localhost:1313/posts/andenblogpost/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/andenblogpost/</guid>
+      <description>Introduktion til Retrieval Augmented Generation og egen chatbot</description>
       
     </item>
     
