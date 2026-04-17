@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Forside on Blowfish</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:50891/</link>
     <description>Recent content in Forside on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2026 Mie Gram</copyright>
-    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:50891/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/about/aboutme/</link>
+      <link>http://localhost:50891/about/aboutme/</link>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/aboutme/</guid>
+      <guid>http://localhost:50891/about/aboutme/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Undervisning 1 – Hugo &amp; Blowfish</title>
-      <link>http://localhost:1313/posts/firstpost/</link>
+      <link>http://localhost:50891/posts/firstpost/</link>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/firstpost/</guid>
+      <guid>http://localhost:50891/posts/firstpost/</guid>
       <description>Opsætning af portfolio med Hugo og Blowfish</description>
       
     </item>
     
     <item>
       <title>Undervisning 2 – RAG</title>
-      <link>http://localhost:1313/posts/andenblogpost/</link>
+      <link>http://localhost:50891/posts/andenblogpost/</link>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/andenblogpost/</guid>
+      <guid>http://localhost:50891/posts/andenblogpost/</guid>
       <description>Introduktion til Retrieval Augmented Generation og egen chatbot</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:1313/project/</link>
+      <link>http://localhost:50891/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/project/</guid>
+      <guid>http://localhost:50891/project/</guid>
       <description></description>
       
     </item>

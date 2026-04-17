@@ -11,19 +11,18 @@ I denne undervisning arbejdede vi med noget der hedder **RAG (Retrieval Augmente
 
 ## Hvad er RAG?
 
-RAG er en metode, hvor man kombinerer en AI (LLM) med sine egne data.
-
-Normalt svarer en AI kun ud fra det, den allerede er trænet på.  
-Men med RAG kan man:
-
-- tilføje sine egne dokumenter  
-- søge i dem  
-- og bruge dem til at lave bedre og mere relevante svar  
-
-Kort sagt:  
-AI + dine egne data = bedre svar
-
-her henter den altså og undersøger data istedt for at hallucinere og opfinde sine egne svar 
+RAG står for Retrieval-Augmented Generation og er en metode inden for kunstig intelligens, der kombinerer informationssøgning med tekstgenerering. Formålet med RAG er at gøre AI-modeller mere præcise og opdaterede ved at lade dem hente relevant information fra eksterne kilder, før de genererer et svar.
+I stedet for kun at basere sig på den viden, modellen er trænet på, kan en RAG-model slå op i eksempelvis dokumenter, databaser eller interne vidensbaser. Det betyder, at svarene bliver mere faktabaserede og relevante i forhold til brugerens spørgsmål.
+RAG består typisk af tre hoveddele:
+- Indeksering (Indexing)
+Før systemet kan bruges, bliver dokumenter delt op i mindre dele og gemt på en måde, så de hurtigt kan søges i. Disse dele kaldes chunks. Hver chunk bliver omdannet til en såkaldt embedding, som gør det muligt for systemet at sammenligne og finde relevant indhold.
+- Retrieval (Søgning)
+Når brugeren stiller et spørgsmål, bliver spørgsmålet også omdannet til en embedding. Systemet søger derefter efter de chunks, der minder mest om spørgsmålet, og vælger de mest relevante tekststykker.
+- Generation (Generering)
+De fundne chunks sendes til en sprogmodel, som bruger informationen til at formulere et svar. På den måde bliver svaret baseret på konkrete kilder i stedet for kun modellens træning.
+En vigtig del af RAG er brugen af chunks. Da dokumenter ofte er lange, bliver de opdelt i mindre tekststykker for at gøre søgningen mere præcis og effektiv. Hvis man arbejdede med hele dokumenter, ville systemet have sværere ved at finde præcis den relevante information. Chunks gør det derfor muligt at hente små, målrettede dele af teksten, som passer direkte til brugerens spørgsmål.
+Ofte arbejder man også med overlap mellem chunks, så vigtig information ikke går tabt i opdelingen.
+Sammenfattende kan man sige, at RAG gør AI-systemer bedre ved først at finde relevant information og derefter bruge den til at generere mere præcise og troværdige svar.
 
 ---
 

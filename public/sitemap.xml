@@ -3,43 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/about/aboutme/</loc>
+    <loc>http://localhost:50891/about/aboutme/</loc>
     <lastmod>2026-04-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:50891/about/</loc>
     <lastmod>2026-04-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:50891/</loc>
     <lastmod>2026-04-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:50891/posts/</loc>
     <lastmod>2026-04-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/firstpost/</loc>
+    <loc>http://localhost:50891/posts/firstpost/</loc>
     <lastmod>2026-04-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/andenblogpost/</loc>
+    <loc>http://localhost:50891/posts/andenblogpost/</loc>
     <lastmod>2026-04-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/project/</loc>
+    <loc>http://localhost:50891/project/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
