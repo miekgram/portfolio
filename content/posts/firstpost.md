@@ -1,6 +1,6 @@
 ---
 title: "Undervisning 1 – Hugo & Blowfish"
-date: 2026-04-13
+date: 2026-04-10
 draft: false
 summary: "Opsætning af portfolio med Hugo og Blowfish"
 ---
