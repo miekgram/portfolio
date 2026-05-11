@@ -67,4 +67,8 @@ Det sad vi hver især og arbejdede med ved hjælp af vores kodeagenter (Codex). 
 
 Efter ChatGPT havde genereret prompten, smed jeg den ind i min kodeagent, og efter cirka 3 minutter havde jeg en fuld, velfungerende quiz-hjemmeside oppe at køre.
 
+![Oversigt over undervisningsmoduler i quiz-applikationen](/images/quiz-undervisningsmoduler.svg)
+
+![Quiz-side for modulet om meditation](/images/quiz-meditation-modul.svg)
+
 Det synes jeg var både skræmmende og fascinerende på samme tid.

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1984 1280" role="img" aria-labelledby="title desc">
+  <title id="title">Quiz-side for meditation</title>
+  <desc id="desc">Detaljeside for et meditationsmodul med videoindhold, quiz, progress bar og svarmuligheder.</desc>
+  <rect width="1984" height="1280" fill="#fff"/>
+  <rect x="502" y="152" width="980" height="1128" rx="4" fill="#fff" stroke="#ececec" filter="drop-shadow(0 2px 13px rgba(0,0,0,.08))"/>
+  <g transform="translate(526 176)" font-family="Inter, Arial, sans-serif">
+    <rect width="221" height="44" rx="7" fill="#7d9b7b"/>
+    <text x="23" y="29" font-size="19" font-weight="700" fill="#fff">← Tilbage til oversigt</text>
+  </g>
+  <g transform="translate(526 274)" font-family="Georgia, 'Times New Roman', serif" fill="#435943">
+    <text x="0" y="28" font-size="40" font-weight="800">Om meditation</text>
+    <text x="0" y="84" font-size="21">Dette modul handler om meditation og om at vælge ikke at gøre et problem ud af sine tanker.</text>
+    <rect x="0" y="115" width="924" height="174" rx="7" fill="#d3e3d1"/>
+    <text x="397" y="208" font-size="24" font-weight="800">Video indhold</text>
+    <line x1="0" y1="337" x2="924" y2="337" stroke="#d7ded6"/>
+  </g>
+  <g transform="translate(526 674)" font-family="Georgia, 'Times New Roman', serif" fill="#435943">
+    <text x="0" y="23" font-size="32" font-weight="800">Quiz</text>
+    <rect x="0" y="50" width="924" height="9" rx="5" fill="#dde5dd"/>
+    <rect x="0" y="50" width="154" height="9" rx="5" fill="#7d9b7b"/>
+    <text x="0" y="89" font-size="16">Spørgsmål 1 af 6</text>
+    <rect x="0" y="118" width="924" height="310" rx="8" fill="#f8faf9"/>
+    <text x="24" y="184" font-size="22" font-weight="800">Målet med meditation er at være helt tom for tanker</text>
+    <rect x="24" y="215" width="876" height="51" rx="8" fill="#fff" stroke="#d9e1d8" stroke-width="2"/>
+    <text x="44" y="248" font-size="19">Rigtigt</text>
+    <rect x="24" y="280" width="876" height="51" rx="8" fill="#fff" stroke="#d9e1d8" stroke-width="2"/>
+    <text x="44" y="313" font-size="19">Forkert</text>
+    <rect x="24" y="356" width="111" height="49" rx="7" fill="#c8c8c8"/>
+    <text x="51" y="388" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#fff">Næste</text>
+  </g>
+</svg>

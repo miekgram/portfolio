@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1198 752" role="img" aria-labelledby="title desc">
+  <title id="title">Startside for EG Admin</title>
+  <desc id="desc">Oversigtsside for Engestofte bryllupsadministration med kommende bryllupper, opgaver og frister.</desc>
+  <rect width="1198" height="752" fill="#f9faf4"/>
+  <rect width="1198" height="62" fill="#fffdf8"/>
+  <line x1="0" y1="62" x2="1198" y2="62" stroke="#e7e1d5"/>
+  <circle cx="38" cy="31" r="15" fill="none" stroke="#c8a24f" stroke-width="1.4"/>
+  <text x="33" y="37" font-family="Georgia, serif" font-size="17" fill="#c8a24f">E</text>
+  <text x="61" y="26" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#26372d">Engestofte</text>
+  <text x="61" y="40" font-family="Arial, sans-serif" font-size="10" fill="#6f786f">Bryllupsadministration</text>
+  <rect x="1070" y="17" width="96" height="31" rx="5" fill="#1e553b"/>
+  <text x="1088" y="37" font-family="Arial, sans-serif" font-size="13" fill="#fff">+ Nyt bryllup</text>
+  <g transform="translate(180 155)">
+    <text x="0" y="17" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#c49a49">OVERBLIK</text>
+    <text x="0" y="56" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#2f4439">Alle kommende bryllupper</text>
+    <rect x="626" y="29" width="205" height="31" rx="6" fill="#fff9ed" stroke="#eedebf"/>
+    <text x="655" y="49" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#8a6634">2 frister kræver opmærksomhed</text>
+    <rect x="638" y="38" width="10" height="10" rx="1" fill="none" stroke="#b78331" stroke-width="1.2"/>
+    <line x1="638" y1="41" x2="648" y2="41" stroke="#b78331" stroke-width="1.2"/>
+    <g transform="translate(0 82)">
+      <rect width="270" height="160" rx="5" fill="#fff" stroke="#e2dfd8"/>
+      <text x="17" y="27" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#c1903d">11. juni 2026</text>
+      <text x="17" y="58" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#34413b">Anna Møller &amp; Frederik</text>
+      <text x="17" y="82" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#34413b">Lund</text>
+      <rect x="17" y="102" width="78" height="22" rx="11" fill="#faecd2"/>
+      <text x="28" y="117" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#8c652c">Opgaver: 0/1/0</text>
+      <rect x="103" y="102" width="78" height="22" rx="11" fill="#faecd2"/>
+      <text x="115" y="117" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#8c652c">Frister: 0/1/0</text>
+      <text x="17" y="143" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#2d7b55">Oplysninger ser komplette ud</text>
+    </g>
+    <g transform="translate(282 82)">
+      <rect width="270" height="160" rx="5" fill="#fff" stroke="#e2dfd8"/>
+      <text x="17" y="27" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#c1903d">17. juli 2026</text>
+      <text x="17" y="63" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#34413b">Rikke &amp; Mie</text>
+      <rect x="17" y="102" width="80" height="22" rx="11" fill="#dff0e6"/>
+      <text x="29" y="117" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2f7850">Opgaver: 0/0/0</text>
+      <rect x="106" y="102" width="78" height="22" rx="11" fill="#dff0e6"/>
+      <text x="118" y="117" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2f7850">Frister: 0/0/0</text>
+      <text x="17" y="143" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#2d7b55">Oplysninger ser komplette ud</text>
+    </g>
+    <g transform="translate(564 82)">
+      <rect width="270" height="160" rx="5" fill="#fff" stroke="#e2dfd8"/>
+      <text x="17" y="27" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#c1903d">14. august 2026</text>
+      <text x="17" y="63" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#34413b">Sofie Berg &amp; Mads Holm</text>
+      <rect x="17" y="102" width="80" height="22" rx="11" fill="#f7dcd6"/>
+      <text x="28" y="117" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#9d3e34">Opgaver: 1/1/1</text>
+      <rect x="105" y="102" width="78" height="22" rx="11" fill="#f7dcd6"/>
+      <text x="117" y="117" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#9d3e34">Frister: 1/0/1</text>
+      <text x="17" y="143" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#2d7b55">Oplysninger ser komplette ud</text>
+    </g>
+  </g>
+</svg>

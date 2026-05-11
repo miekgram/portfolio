@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1984 1280" role="img" aria-labelledby="title desc">
+  <title id="title">Undervisningsmoduler i quiz-applikationen</title>
+  <desc id="desc">Oversigt over fem undervisningsmoduler med videofelter i en meditations-quiz-applikation.</desc>
+  <rect width="1984" height="1280" fill="#fff"/>
+  <rect x="270" y="152" width="1434" height="1128" fill="#f7f8f7"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#435943">
+    <text x="725" y="255" font-size="48" font-weight="800">Undervisningsmoduler</text>
+    <text x="806" y="306" font-size="24" font-weight="500" fill="#647563">Vælg et modul for at starte læringen</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" fill="#435943">
+    <g transform="translate(294 358)">
+      <rect width="446" height="398" rx="12" fill="#fff" stroke="#d8ded8" filter="drop-shadow(0 8px 12px rgba(0,0,0,.12))"/>
+      <text x="24" y="74" font-size="30" font-weight="800">Om meditation</text>
+      <text x="24" y="119" font-size="20" fill="#5f705e">Dette modul handler om meditation og om at</text>
+      <text x="24" y="147" font-size="20" fill="#5f705e">vælge ikke at gøre et problem ud af sine tanker.</text>
+      <rect x="24" y="173" width="398" height="173" rx="8" fill="#d3e3d1"/>
+      <text x="191" y="270" font-size="24" font-weight="800">Video</text>
+    </g>
+    <g transform="translate(764 358)">
+      <rect width="446" height="398" rx="12" fill="#fff" stroke="#d8ded8" filter="drop-shadow(0 8px 12px rgba(0,0,0,.12))"/>
+      <text x="24" y="74" font-size="30" font-weight="800">Om at være stille</text>
+      <text x="24" y="119" font-size="20" fill="#5f705e">Dette modul handler om den indre og ydre</text>
+      <text x="24" y="147" font-size="20" fill="#5f705e">stilhed og hvordan man forholder sig til tanker</text>
+      <text x="24" y="175" font-size="20" fill="#5f705e">og følelser.</text>
+      <rect x="24" y="201" width="398" height="173" rx="8" fill="#d3e3d1"/>
+      <text x="191" y="302" font-size="24" font-weight="800">Video</text>
+    </g>
+    <g transform="translate(1234 358)">
+      <rect width="446" height="398" rx="12" fill="#fff" stroke="#d8ded8" filter="drop-shadow(0 8px 12px rgba(0,0,0,.12))"/>
+      <text x="24" y="74" font-size="30" font-weight="800">Om at være afspændt</text>
+      <text x="24" y="119" font-size="20" fill="#5f705e">Dette modul handler om afspænding i kroppen</text>
+      <text x="24" y="147" font-size="20" fill="#5f705e">og hvordan det hænger sammen med den indre</text>
+      <text x="24" y="175" font-size="20" fill="#5f705e">oplevelse.</text>
+      <rect x="24" y="201" width="398" height="173" rx="8" fill="#d3e3d1"/>
+      <text x="191" y="302" font-size="24" font-weight="800">Video</text>
+    </g>
+    <g transform="translate(294 780)">
+      <rect width="446" height="430" rx="12" fill="#fff" stroke="#d8ded8" filter="drop-shadow(0 8px 12px rgba(0,0,0,.12))"/>
+      <text x="24" y="74" font-size="30" font-weight="800">Om at være opmærksom og</text>
+      <text x="24" y="110" font-size="30" font-weight="800">lysvågen</text>
+      <text x="24" y="153" font-size="20" fill="#5f705e">Dette modul handler om opmærksomhed,</text>
+      <text x="24" y="181" font-size="20" fill="#5f705e">bevidsthed og det at være vågen uden at</text>
+      <text x="24" y="209" font-size="20" fill="#5f705e">hænge fast i noget.</text>
+      <rect x="24" y="235" width="398" height="173" rx="8" fill="#d3e3d1"/>
+      <text x="191" y="336" font-size="24" font-weight="800">Video</text>
+    </g>
+    <g transform="translate(764 780)">
+      <rect width="446" height="430" rx="12" fill="#fff" stroke="#d8ded8" filter="drop-shadow(0 8px 12px rgba(0,0,0,.12))"/>
+      <text x="24" y="74" font-size="30" font-weight="800">Om at lade alting være</text>
+      <text x="24" y="119" font-size="20" fill="#5f705e">Dette modul handler om at lade oplevelser,</text>
+      <text x="24" y="147" font-size="20" fill="#5f705e">tanker og følelser være som de er uden at gøre</text>
+      <text x="24" y="175" font-size="20" fill="#5f705e">dem til et problem.</text>
+      <rect x="24" y="201" width="398" height="173" rx="8" fill="#d3e3d1"/>
+      <text x="191" y="302" font-size="24" font-weight="800">Video</text>
+    </g>
+  </g>
+</svg>

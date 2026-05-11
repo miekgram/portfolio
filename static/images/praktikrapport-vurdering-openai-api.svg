@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1984 1280" role="img" aria-labelledby="title desc">
+  <title id="title">Praktikrapport vurdering med OpenAI API</title>
+  <desc id="desc">Skærmbillede-lignende illustration af en webapp, der vurderer rapporter med egne prompts og OpenAI API.</desc>
+  <defs>
+    <radialGradient id="bg-left" cx="8%" cy="18%" r="58%">
+      <stop offset="0" stop-color="#eef6ef"/>
+      <stop offset="1" stop-color="#fbf8f1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bg-right" cx="96%" cy="12%" r="60%">
+      <stop offset="0" stop-color="#f6e8dc"/>
+      <stop offset="1" stop-color="#fbf8f1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="30" flood-color="#6f614f" flood-opacity=".12"/>
+    </filter>
+  </defs>
+
+  <rect width="1984" height="1280" fill="#fbf8f1"/>
+  <rect width="1984" height="1280" fill="url(#bg-left)"/>
+  <rect width="1984" height="1280" fill="url(#bg-right)"/>
+
+  <g transform="translate(286 176)">
+    <text x="0" y="14" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="6" fill="#007a70">PRAKTIKRAPPORT VURDERING</text>
+    <text x="0" y="95" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="800" fill="#10251b">Vurder rapporter med</text>
+    <text x="0" y="172" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="800" fill="#10251b">dine egne prompts og</text>
+    <text x="0" y="249" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="800" fill="#10251b">OpenAI API</text>
+
+    <text x="0" y="305" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500" fill="#56665e">Vælg en rapport fra data-mappen, upload en fil eller indsæt tekst manuelt.</text>
+    <text x="0" y="336" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500" fill="#56665e">Appen bruger systemprompten fra projektet og viser vurderingen direkte i</text>
+    <text x="0" y="367" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500" fill="#56665e">browseren.</text>
+
+    <g transform="translate(982 0)" filter="url(#soft-shadow)">
+      <rect width="430" height="120" rx="16" fill="#fffaf2" stroke="#d9cbb8"/>
+      <text x="22" y="36" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#5e7068">STATUS</text>
+      <text x="22" y="66" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="800" fill="#13251c">Klar til at vurdere en rapport.</text>
+      <text x="22" y="96" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#607069">Model: gpt-5.5</text>
+    </g>
+
+    <g transform="translate(0 405)" filter="url(#soft-shadow)">
+      <rect width="535" height="710" rx="18" fill="#fffaf4" stroke="#d8cbb9"/>
+      <text x="24" y="42" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800" fill="#10251b">Input</text>
+      <text x="310" y="42" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600" fill="#5b6b63">Vælg eller indsæt rapport</text>
+
+      <text x="24" y="84" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#617069">Eksempelrapporter</text>
+      <rect x="24" y="96" width="490" height="34" rx="8" fill="#fffdf8" stroke="#9fc9bd" stroke-width="2"/>
+      <text x="36" y="119" font-family="Inter, Arial, sans-serif" font-size="18" fill="#16241d">Vælg en rapport</text>
+      <path d="M497 109 l-6 6 l-6 -6 M497 116 l-6 6 l-6 -6" fill="none" stroke="#1a2a21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <text x="24" y="161" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#617069">OpenAI model</text>
+      <rect x="24" y="175" width="490" height="51" rx="12" fill="#fffdf8" stroke="#d8cbb9"/>
+      <text x="41" y="207" font-family="Inter, Arial, sans-serif" font-size="20" fill="#14251c">gpt-5.5</text>
+
+      <text x="24" y="260" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#617069">Upload rapport</text>
+      <rect x="24" y="274" width="490" height="56" rx="12" fill="#fffdf8" stroke="#d8cbb9"/>
+      <rect x="43" y="291" width="106" height="26" rx="6" fill="#e7e7e7"/>
+      <text x="54" y="310" font-family="Inter, Arial, sans-serif" font-size="18" fill="#1d241f">Vælg arkiv</text>
+      <text x="158" y="310" font-family="Inter, Arial, sans-serif" font-size="18" fill="#1d241f">intet arkiv valgt</text>
+
+      <text x="24" y="367" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#617069">Rapportnavn</text>
+      <rect x="24" y="381" width="490" height="51" rx="12" fill="#fffdf8" stroke="#d8cbb9"/>
+      <text x="41" y="413" font-family="Inter, Arial, sans-serif" font-size="20" fill="#a4a4a4">fx student1.md</text>
+
+      <text x="24" y="497" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#617069">Rapporttekst</text>
+      <rect x="24" y="512" width="490" height="170" rx="12" fill="#fffdf8" stroke="#d8cbb9"/>
+      <text x="41" y="548" font-family="Inter, Arial, sans-serif" font-size="19" fill="#a4a4a4">Indsæt en praktikrapport her eller vælg en fil fra</text>
+      <text x="41" y="577" font-family="Inter, Arial, sans-serif" font-size="19" fill="#a4a4a4">data-mappen. Resultatet vises til højre.</text>
+    </g>
+
+    <g transform="translate(565 405)" filter="url(#soft-shadow)">
+      <rect width="848" height="710" rx="18" fill="#fffaf4" stroke="#d8cbb9"/>
+      <text x="24" y="42" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800" fill="#10251b">Resultat</text>
+      <text x="578" y="42" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600" fill="#5b6b63">Markdown-visning fra modellen</text>
+      <rect x="24" y="68" width="800" height="605" rx="18" fill="#fffdf8" stroke="#dbcbb6" stroke-width="1.5" stroke-dasharray="4 5"/>
+      <text x="211" y="380" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500" fill="#5b6b63">Vurderingen dukker op her, når modellen er færdig.</text>
+    </g>
+  </g>
+</svg>
