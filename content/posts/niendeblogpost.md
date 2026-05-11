@@ -45,7 +45,7 @@ Vi lavede også en skitse over, hvordan systemerne kunne tale sammen.
 
 I midten har vi vores egen app, **EG Admin**, som skal fungere som det centrale system. Den skal kunne forbindes med mailsystem, Trello API og på sigt e-conomic. Derudover skal appen indeholde et reminder-system og AI-mappeoverblik.
 
-![Systemskitse](/images/systemskitse-eg-admin.svg)
+![Systemskitse](../../images/systemskitse-eg-admin.svg)
 
 ## Hvad vi byggede
 
@@ -59,7 +59,7 @@ Vi begyndte også at formulere en prompt til vores kodeagent. Prompten beskrev b
 
 Vi fik projektet op at køre og fik lavet en fin startside, som vi fremadrettet skal bygge videre på.
 
-![Startside for EG Admin](/images/eg-admin-startside.svg)
+![Startside for EG Admin](../../images/eg-admin-startside.svg)
 
 ## Hvad jeg lærte
 

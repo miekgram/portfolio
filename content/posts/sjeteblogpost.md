@@ -40,7 +40,7 @@ Derudover arbejdede jeg med:
 - at strukturere output (markdown)  
 - at gemme resultater i `/output`  
 
-![Praktikrapport vurdering med OpenAI API](/images/praktikrapport-vurdering-openai-api.svg)
+![Praktikrapport vurdering med OpenAI API](../../images/praktikrapport-vurdering-openai-api.svg)
 
 Jeg satte også:
 
