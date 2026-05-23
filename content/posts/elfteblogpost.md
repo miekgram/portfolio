@@ -4,6 +4,7 @@ categories: ["project, sparring"]
 tags: ["Project"]
 date: 2026-05-22
 draft: false
+summary: "Videre projektarbejde, AI-integration og arbejdet med frister i Engestofte Gods-projektet."
 featureimage: ""
 authors:
   - rikke

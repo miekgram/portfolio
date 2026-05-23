@@ -4,6 +4,7 @@ categories: ["project, sparring"]
 tags: ["Project"]
 date: 2026-05-11
 draft: false
+summary: "Projektets problem, målgruppe, MVP og afgrænsning for en samlet bryllups- og reminderplatform."
 featureimage: ""
 authors:
   - rikke/Mie
