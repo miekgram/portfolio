@@ -1,5 +1,5 @@
 ---
-title: Undervisning 11 Projekt process og fremdrift del 2
+title: Undervisning 11 - Projekt process og fremdrift del 2
 categories: ["project, sparring"]
 tags: ["Project"]
 date: 2026-05-22
