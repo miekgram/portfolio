@@ -98,5 +98,11 @@ Det var fedt at kunne bruge sine egne data og se, hvordan det påvirker svarene.
 
 Det var lidt teknisk, men også meget relevant i forhold til fremtidig teknologi.
 
+Jeg syntes også det var sjovt at lave systemprompt til botten, altså "tal i en ordentlig tone", "vær professionel" osv. 
+
+Med Diffy var det faktisk forholdsvis nemt at opsætte og vi kom også lidt ind på de forskellige chat versionener der bruges og kunne se forskel på de dyre og billige (i tokens). 
+
+vi kom frem til at 4o-mini var en af de billigere og ganske udemærket til vores brug.
+
 ---
 

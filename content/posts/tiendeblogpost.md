@@ -117,7 +117,6 @@ Det var godt at få tid til at arbejde videre direkte efter undervisningen, ford
 
 ## Hvad jeg lærte
 
-- arkitektur handler om, hvordan systemets dele hænger sammen  
 - dataflow er vigtigt for at forstå, hvordan information bevæger sig gennem systemet  
 - eksterne API’er kræver, at man tænker over sikkerhed og data  
 - AI-værktøjer kan hjælpe i udviklingen, men de skal bruges med omtanke  

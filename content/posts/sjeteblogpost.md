@@ -124,3 +124,7 @@ Jeg endte med en første version af en **LLM-drevet vurderingsapp**, hvor:
 - output vises struktureret  
 
 Der er stadig ting, der kan forbedres – men systemet virker, og det er det vigtigste første skridt.
+
+deruover bruger 4o-mini versionene fordi den er billigst 
+
+vi var inde og oprette en nøgle fra openAI

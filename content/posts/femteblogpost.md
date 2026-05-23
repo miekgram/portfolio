@@ -54,6 +54,9 @@ Byg en mini-app der:
 - har frontend eller REST client  
 - dokumenterer løsningen  
 
+vi kom ikke rigtigt igang med opgaven men var klar til at gå ignag til næste undervisning.
+tanken var at lave et vurderingssystem af praktikrapporter ud fra en rubric - hvortil man kunne indesende sine opgave som pdf og at ai kunne læse den og vurdere ud fra rubricen.
+
 ## Mine tanker
 
 Det her føles mere som “rigtig” udvikling med AI.  

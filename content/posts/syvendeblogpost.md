@@ -20,7 +20,7 @@ Specs er vigtige, fordi de gør udviklingen mere klar og struktureret. De hjælp
 
 ## Hvad gik dagen ud på?
 
-Vi startede med at se en video om AI, og Jon havde (vigtigt) taget slik med 🍬
+Vi startede med at se en video om AI, og Jon havde (vigtigt) taget slik med 
 
 Derefter gik vi i gang med at snakke om:
   
@@ -42,4 +42,5 @@ Altså at programmering ikke bare er kode, men en måde at opbygge forståelse p
 
 ## Resultat
 
-Jeg fik en bedre forståelse for, hvordan jeg kan bruge **specifikationer aktivt i mine projekter**, især sammen med AI.
+Jeg fik en bedre forståelse for, hvordan jeg kan bruge **specifikationer aktivt i mine projekter**
+så en spec er sådan krav specifikationer og begrænsninger for hvad der skal byggen og en prompt er at man skriver til ai at den skal bygge noget så en spec er rammerne/plantegning og en prompt er værktøjet til at bygge

@@ -30,6 +30,7 @@ Appen skal blandt andet kunne vise:
 - manglende oplysninger  
 - dokumenter og noter  
 - reminders i systemet  
+- farve koder så de ansatte ved hvad der skal arbejdes på
 
 Derudover vil vi gerne gøre systemet klar til AI, så man senere kan uploade dokumenter eller mails, hvorefter AI kan læse informationerne og placere dem de rigtige steder.
 
@@ -43,7 +44,7 @@ Til en start bygger vi dog kun en MVP, hvor AI-funktionen er tænkt ind i strukt
 
 Vi lavede også en skitse over, hvordan systemerne kunne tale sammen.
 
-I midten har vi vores egen app, **EG Admin**, som skal fungere som det centrale system. Den skal kunne forbindes med mailsystem, Trello API og på sigt e-conomic. Derudover skal appen indeholde et reminder-system og AI-mappeoverblik.
+I midten har vi vores egen app, **EG Admin**, som skal fungere som det centrale system. Den skal kunne forbindes med mailsystem, Trello API og på sigt e-conomic. Derudover skal appen indeholde et reminder-system og AI-mappeoverblik. altså vi skal forbinde til openAI
 
 ![Systemskitse](../../images/systemskitse-eg-admin.svg)
 

@@ -10,8 +10,7 @@ I denne undervisning havde vi besøg af virksomheden **Engestofte Gods**, som fo
 Engestofte Gods arbejder med mange forskellige områder som blandt andet:
 
 - bryllupper  
-- events og firmafester  
-- restaurant  
+- events og firmafester    
 - sommerhuse og glamping  
 - dagsmøder  
 - julemarked og større arrangementer  
@@ -46,7 +45,6 @@ Vi talte om flere områder, hvor AI og automatisering måske kunne hjælpe dem:
 
 De nævnte også, at det er vigtigt, at kundekontakten stadig føles personlig — især når det handler om bryllupper, fordi det er en vigtig dag for kunderne.
 
-Derfor kunne en mulig løsning være en chatbot eller AI-assistent, som kun hjælper med de simple og praktiske spørgsmål, mens medarbejderne stadig tager sig af den mere personlige kontakt.
 
 ## Hvad jeg lærte
 
@@ -55,8 +53,10 @@ Derfor kunne en mulig løsning være en chatbot eller AI-assistent, som kun hjæ
 - mange virksomheder har allerede masser af data, som de ikke bruger optimalt  
 - det er vigtigt at forstå brugerens behov før man bygger en løsning  
 
-## Resultat
+## Tanker
 
 Dagen gav inspiration til mulige projektidéer og viste, hvordan AI kan bruges til at forbedre rigtige arbejdsprocesser i en virksomhed.
+
+spørgsmålet er om man tør overlade noget fuldstændigt til AI man ville nok stadgivæk have behov som menneske for at gå ind og tjekke om det nu passer og ikke overlade det hele til AI - så spørgsmålet er om man kan med nogke ting automatisere det - måske ikke de alt afgørende ting men de lidt blødere ting
 
 Det var interessant at høre om konkrete udfordringer fra en rigtig virksomhed og tænke over, hvordan man kunne løse dem med teknologi og AI.

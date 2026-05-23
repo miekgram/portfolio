@@ -56,6 +56,11 @@ På den måde bliver løsningen mere robust og mere brugbar i praksis.
 
 ---
 
+## prompt 
+
+Det er noget helt nyt for mig det her med at prompte "hvad jeg gerne ville have" istedet for at man selv skal kode det og være løsnings orienteret - det går meget hurtigt med at få noget kode i luften og teste det.
+
+
 ## Eksempel på main-klassen
 
 Main-klassen er det sted, hvor programmet starter. Her bliver miljøvariabler læst ind, og selve synkroniseringen bliver sat i gang.
@@ -92,5 +97,7 @@ Det tog også to forsøg for mig. Min første prompt var ikke så fyldestgørend
 Jeg synes, det er meget interessant, hvor hurtigt det kan gå, og hvor hurtigt man kan få stablet noget kode på benene, som faktisk virker. Men det kan også være lidt farligt, fordi man hurtigt kan indsætte noget kode, som virker, uden rigtig at have kigget på det eller forstået, hvorfor det virker.
 
 Så selvom det er et rigtig godt redskab, er det vigtigt, at man stadig har sine kritiske briller på.
+
+Men det virkede og jeg fik sat noget kode op der, hver gang jeg køre det går ind og læser alle mine blogpost/sider så mit bot bliver fodret med nye informationer om min side og som så gør at jeg efterfølegende kan spørge den om de nye emner jeg skriver i min opslag - super fedt
 
 
