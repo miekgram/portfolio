@@ -1,0 +1,15 @@
+{{ define "main" }}
+<article class="project-detail">
+  <nav class="project-breadcrumb" aria-label="Brødkrummesti"><a href="{{ "projekter/" | relURL }}">← Alle projekter</a><span aria-hidden="true">/</span><span aria-current="page">{{ .Params.cardTitle | default .Title }}</span></nav>
+  <header class="project-detail-header"><p class="eyebrow">{{ .Params.category }}</p><h1>{{ .Params.cardTitle | default .Title }}</h1><p class="project-subtitle">{{ .Params.cardDescription }}</p></header>
+  <div class="project-detail-grid">
+    <div class="prose dark:prose-invert project-story">{{ .Content }}</div>
+    <aside class="project-facts" aria-label="Projektinformation">
+      <h2>Projektet kort</h2>
+      <dl><dt>Status</dt><dd><span class="status-badge {{ if eq .Params.previewStyle "standpoint" }}status-progress{{ end }}">{{ if eq .Params.previewStyle "standpoint" }}Under udvikling{{ else }}Live hjemmeside{{ end }}</span></dd><dt>Mit arbejde</dt><dd>{{ .Params.category }}</dd><dt>Teknologier</dt><dd><div class="tech-tags">{{ range .Params.technologies }}<span>{{ . }}</span>{{ end }}</div></dd></dl>
+      {{ with .Params.website }}<a class="portfolio-button" href="{{ . }}" target="_blank" rel="noopener noreferrer">Besøg hjemmesiden <span aria-hidden="true">↗</span></a><p class="external-note">Åbner i en ny fane.</p>{{ end }}
+    </aside>
+  </div>
+  <section class="project-next" aria-label="Flere projekter"><div><p class="eyebrow">Se også</p>{{ $current := . }}{{ with site.GetPage "/projekter" }}{{ range .RegularPages.ByWeight }}{{ if ne .RelPermalink $current.RelPermalink }}<a class="next-project-link" href="{{ .RelPermalink }}">{{ .Params.cardTitle | default .Title }} <span aria-hidden="true">→</span></a>{{ end }}{{ end }}{{ end }}</div><a class="text-link" href="{{ "projekter/" | relURL }}">Tilbage til projekter</a></section>
+</article>
+{{ end }}

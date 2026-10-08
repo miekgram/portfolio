@@ -1,0 +1,24 @@
+<div class="portfolio-home">
+  <section class="portfolio-hero">
+    <div>
+      <p class="eyebrow">Mie Gram · Datamatikerstuderende</p>
+      <h1>Fra nysgerrighed<br>til <em>digitale løsninger.</em></h1>
+      <p class="hero-description">Mit navn er Mie, jeg er datamatiker studerende. jeg har en særlig interesse for teknik, struktur og AI og hvordan disse ting spiller sammen og kan give nogle fede projekter.</p>
+      <div class="hero-actions">
+        <a class="portfolio-button" href="#projekter">Se mine projekter <span aria-hidden="true">↓</span></a>
+        <a class="text-link" href="{{ "about/aboutme/" | relURL }}">Lær mig at kende <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="tech-tags" aria-label="Teknologier"><span>Java</span><span>React</span><span>JavaScript</span><span>PostgreSQL</span></div>
+    </div>
+    <div class="portrait-panel">
+      <img src="{{ "images/mie.png" | relURL }}" alt="Mie Gram" width="440" height="520">
+    </div>
+  </section>
+  <section id="projekter" class="home-projects">
+    <div class="section-heading"><div><p class="eyebrow">Bygget med omtanke</p><h2>Udvalgte projekter</h2></div><a class="text-link" href="{{ "projekter/" | relURL }}">Alle projekter <span aria-hidden="true">→</span></a></div>
+    {{ with site.GetPage "/projekter" }}{{ range .RegularPages.ByWeight }}{{ partial "project-card.html" . }}{{ end }}{{ end }}
+  </section>
+  {{ if site.Params.showBlog }}
+  <section class="journal-banner"><div><p class="eyebrow">Noter fra studiet</p><h2>Læring sker undervejs.</h2><p>Refleksioner, erfaringer og små gennembrud fra min hverdag som datamatikerstuderende.</p></div><a class="portfolio-button secondary" href="{{ "posts/" | relURL }}">Læs min blog <span aria-hidden="true">→</span></a></section>
+  {{ end }}
+</div>

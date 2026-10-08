@@ -16,9 +16,14 @@ pageRef = "posts"
 weight = 10
 
 [[main]]
-name = "About me"
+name = "Projekter"
+pageRef = "projekter"
+weight = 20
+
+[[main]]
+name = "Om mig"
 pageRef = "aboutme"
-weight = 10
+weight = 30
 
 #[[main]]
 #  name = "Parent"

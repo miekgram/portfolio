@@ -1,0 +1,8 @@
+<div class="main-menu intuitive-header">
+  <a class="home-link {{ if .IsHome }}is-current{{ end }}" href="{{ "" | relLangURL }}" {{ if .IsHome }}aria-current="page"{{ end }}>Home<span class="home-owner">Mie Gram</span></a>
+  <nav class="portfolio-nav" aria-label="Hovedmenu">{{ partial "navigation-links.html" . }}</nav>
+  <details class="portfolio-mobile-menu">
+    <summary>Menu {{ partial "icon.html" "bars" }}</summary>
+    <nav aria-label="Mobilmenu">{{ partial "navigation-links.html" . }}</nav>
+  </details>
+</div>

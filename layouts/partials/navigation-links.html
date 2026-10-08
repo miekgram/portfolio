@@ -1,0 +1,9 @@
+{{ $current := . }}
+{{ range .Site.Menus.main }}
+  {{ if or (ne .PageRef "posts") site.Params.showBlog }}
+    {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+    {{ with .Page }}{{ if .IsAncestor $current }}{{ $active = true }}{{ end }}{{ end }}
+    <a href="{{ .URL }}" class="nav-link {{ if $active }}is-current{{ end }}" {{ if $active }}aria-current="{{ if $current.IsMenuCurrent "main" . }}page{{ else }}location{{ end }}"{{ end }}>{{ .Name }}</a>
+  {{ end }}
+{{ end }}
+<a class="nav-contact" href="{{ "about/aboutme/" | relURL }}#kontakt">Kontakt <span aria-hidden="true">→</span></a>

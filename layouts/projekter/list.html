@@ -1,0 +1,3 @@
+{{ define "main" }}
+<div class="projects-page"><header class="page-intro"><p class="eyebrow">Fra idé til virkelighed</p><h1>Projekter</h1><div class="intro-copy">{{ .Content }}</div></header><section aria-label="Mine projekter">{{ range .RegularPages.ByWeight }}{{ partial "project-card.html" . }}{{ end }}</section><p class="projects-note">Flere idéer er på vej. Her samler jeg mine projekter, efterhånden som de tager form.</p></div>
+{{ end }}
